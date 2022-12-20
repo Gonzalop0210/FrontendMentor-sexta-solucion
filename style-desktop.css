@@ -1,0 +1,39 @@
+@media only screen and (min-width: 1440px) {
+    .conteiner__header {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .container__main, .container__img {
+        width: 50%;
+    }
+
+    .container__main {
+        text-align: start;
+        padding-right: 130px;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+
+    .container__number {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 70px;
+    }
+
+    .number {
+        font-size: 1.5rem;
+    }
+
+    .back {
+        height: 99.8%;
+    }
+}

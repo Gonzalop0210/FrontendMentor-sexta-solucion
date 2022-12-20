@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-desktop.css">
 </head>
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <header class="conteiner__header">
+        <main class="container__main">
+            <h1 class="title">Get <span class="span">insights</span> that help your business grow.</h1>
+            <p class="paragraph">Discover the benefits of data analytics and make better decisions regarding renueve, customer experience, and overall efficiency</p>
+            <div class="container__number">
+                <p class="number">10K+<br><span class="text__number">COMPANIES</span></p>
+                <p class="number">314<br><span class="text__number">TEMPLATES</span></p>
+                <p class="number">12M+<br><span class="text__number">QUERIES</span></p>
+            </div>
+        </main>
+        <picture class="container__img">
+            <img src="images/image-header-desktop.jpg" alt="header" class="img">
+            <div class="back img"></div>
+        </picture>
+    </header>
 </body>
 </html>
